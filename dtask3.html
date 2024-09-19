@@ -1,0 +1,13 @@
+<body>
+    <input id="box" onkeyup="update()">
+    <h1 id="txt"></h1>
+<body>
+<script>
+    var box=document.getElementById("box")
+    var txt=document.getElementById("txt")
+
+    function update(){
+        txt.textContent=box.value
+    }
+
+</script>
